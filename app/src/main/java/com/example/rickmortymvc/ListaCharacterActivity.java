@@ -47,14 +47,10 @@ public class ListaCharacterActivity extends AppCompatActivity implements Recycle
         rvCharacter.setAdapter(characterListAdapter);
     }
 
-    public void toast(String texto) {
-        Toast.makeText(this, texto, Toast.LENGTH_LONG).show();
-    }
-
     @Override
-    public void onCliklistener(View view, Intent intent) {
-        Intent intent1 = new Intent(getApplicationContext(), CharacterInfosActivity.class);
-//        intent1.putExtra("c", character);
+    public void onCliklistener(Character character) {
+        Intent intent = new Intent(this, CharacterInfosActivity.class);
+        intent.putExtra("c", character);
         startActivity(intent);
     }
 }

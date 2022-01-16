@@ -63,7 +63,7 @@
             tools:text="@tools:sample/date/hhmm" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/localização_info"
+            android:id="@+id/localizacao_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000000"

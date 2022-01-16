@@ -68,9 +68,9 @@ public class ListaCharacterAdapter extends RecyclerView.Adapter<ListaCharacterAd
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(v.getContext(), CharacterInfosActivity.class);
-                    listaCharacterActivity.toast(character.getName());
-                    listaCharacterActivity.onCliklistener(v, intent);
+
+
+                    listaCharacterActivity.onCliklistener(character);
                 }
             });
 
