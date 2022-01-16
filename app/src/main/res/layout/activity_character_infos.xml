@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="7dp"
     android:scrollbars="vertical">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:id="@+id/image_info"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            tools:src="@tools:sample/avatars" />
+           tools:src="@tools:sample/avatars" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/name_info"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:textSize="21sp"
-            tools:text="@tools:sample/full_names" />
+           tools:text="@tools:sample/full_names" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/status_info"
